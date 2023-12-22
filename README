@@ -1,0 +1,20 @@
+# Aphasia
+
+Aphasia is a Go project that generates random adjectives and nouns from text files.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Go (version 1.16 or later)
+
+### Installing
+
+```bash
+git clone https://github.com/yourusername/aphasia.git
+```
+
+### Usage
+- Talk() generates a random mumbled string by combining an adjective and a noun.

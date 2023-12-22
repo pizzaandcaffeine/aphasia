@@ -53,7 +53,7 @@ func getNoun() (string, error) {
 	return lines[rand.Intn(len(lines))], nil
 }
 
-// Mumble generates a mumbled string by combining an adjective and a noun.
+// Talk generates a mumbled string by combining an adjective and a noun.
 // It calls the getAdjective and getNoun functions to retrieve the adjective and noun respectively.
 // If any error occurs during the retrieval process, it panics.
 // The mumbled string is formed by concatenating the adjective and noun with a hyphen in between.
