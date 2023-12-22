@@ -14,7 +14,7 @@ import (
 // selects a random line, and returns it as a string.
 // If there is an error opening or reading the file, it returns an empty string and the error.
 func getAdjective() (string, error) {
-	filePath, _ := filepath.Abs("internal/aphasia/doc/adjectives.txt")
+	filePath, _ := filepath.Abs("doc/adjectives.txt")
 	adjective, err := os.Open(filePath)
 	if err != nil {
 		return "", err
@@ -36,7 +36,7 @@ func getAdjective() (string, error) {
 // selects a random line, and returns it as a string.
 // If there is an error opening the file or reading its contents, an error is returned.
 func getNoun() (string, error) {
-	filePath, _ := filepath.Abs("internal/aphasia/doc/nouns.txt")
+	filePath, _ := filepath.Abs("doc/nouns.txt")
 	noun, err := os.Open(filePath)
 	if err != nil {
 		return "", err
